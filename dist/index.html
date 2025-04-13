@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>HTMLBench v1.0</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<h1>HTMLBench v1.0</h1>
+<div class="controls">
+  <label for="elementCount">Number of Elements:</label>
+  <input type="number" id="elementCount" value="1000">
+  <label for="testRepetitions">Number of Tests:</label>
+  <input type="range" id="testRepetitions" min="1" max="10" value="4">
+  <span id="testRepetitionsValue">4</span>
+  <button id="runBenchmark">Run Benchmark</button>
+</div>
+<div id="results"></div>
+<canvas id="benchmarkChart" width="400" height="200"></canvas>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
