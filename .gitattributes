@@ -1,3 +1,4 @@
 *.js linguist-detectable
 *.css linguist-detectable
 *.html linguist-detectable
+dist/ linguist-detectable
